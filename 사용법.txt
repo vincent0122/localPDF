@@ -1,0 +1,5 @@
+가상환경 활성화 conda activate localgpt_llama2
+
+pdf파일은 source_documents에 넣기
+python ingest.py --device_type cpu # pdf파일 임베딩해서 local DB에 저장하기
+python run_localGPT.py --device_type cpu --show_sources 
